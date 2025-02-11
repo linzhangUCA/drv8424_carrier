@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "DRV8424EPWPR")(type "KiCad")(uri "${KIPRJMOD}/model_lib/DRV8424EPWPR/KiCADv6/2025-02-09_17-17-43.kicad_sym")(options "")(descr ""))
   (lib (name "DMP4013LFG-7")(type "KiCad")(uri "${KIPRJMOD}/model_lib/DMP4013LFG_7/KiCADv6/2025-02-10_15-47-55.kicad_sym")(options "")(descr ""))
+  (lib (name "SZMM3Z16VT1G")(type "KiCad")(uri "${KIPRJMOD}/model_lib/SZMM3Z16VT1G/KiCADv6/2025-02-04_03-26-02.kicad_sym")(options "")(descr ""))
+  (lib (name "CGA2B3X7R1V103K050BB")(type "KiCad")(uri "${KIPRJMOD}/model_lib/CGA2B3X7R1V103K050BB/CGA2B3X7R1V103K050BB.kicad_sym")(options "")(descr ""))
+  (lib (name "MMSZ5245B-7-F")(type "KiCad")(uri "${KIPRJMOD}/model_lib/MMSZ5245B_7_F/KiCADv6/2025-02-11_03-46-22.kicad_sym")(options "")(descr ""))
+  (lib (name "EEE-1AA101WR")(type "KiCad")(uri "${KIPRJMOD}/model_lib/EEE-1AA101WR/KiCad/EEE-1AA101WR.kicad_sym")(options "")(descr ""))
 )

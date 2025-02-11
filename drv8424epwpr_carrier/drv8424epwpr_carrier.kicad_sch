@@ -5,6 +5,120 @@
 	(uuid "ffaa5cf3-cedd-4f84-9f10-7046972ed335")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CGA2B3X7R1V103K050BB:CGA2B3X7R1V103K050BB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA2B3X7R1V103K050BB"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA2B3X7R1V103K050BB:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CGA2B3X7R1V103K050BB_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016) hide)
@@ -1144,6 +1258,541 @@
 				)
 			)
 		)
+		(symbol "EEE-1AA101WR:EEE-1AA101WR"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EEE-1AA101WR"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EEE0GA101SR"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PANASONIC ELECTRONIC COMPONENTS - EEE-1AA101WR - ALUMINUM ELECTROLYTIC CAPACITOR, 100UF, 10V, 20%, SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-EEE-1AA101WR"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1AA101WR?qs=ANJC8C65Mw69l04MNJ%252BCMg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EEE-1AA101WR"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EEE-1AA101WR_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MMSZ5245B-7-F:MMSZ5245B-7-F"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MMSZ5245B-7-F"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOD123_DIO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MMSZ5245B-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MMSZ5245B-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOD123_DIO SOD123_DIO-M SOD123_DIO-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMSZ5245B-7-F_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MMSZ5245B-7-F_1_2"
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "drv8424epwpr:DRV8424EPWPR"
 			(pin_names
 				(offset 0.254)
@@ -2037,6 +2686,18 @@
 		(uuid "2563988d-b953-481f-945d-b2c811882fbc")
 	)
 	(junction
+		(at 80.01 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29315d62-6848-491a-893e-ae3713d95f8d")
+	)
+	(junction
+		(at 86.36 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "324d33d0-49a2-4c44-9b1f-b23d96bf8ea7")
+	)
+	(junction
 		(at 144.78 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,10 +2722,40 @@
 		(uuid "685a27c6-3fd5-483d-80c5-0e9000680749")
 	)
 	(junction
+		(at 110.49 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "708c7817-87f8-418d-8e32-f225859bae1f")
+	)
+	(junction
+		(at 99.06 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7883a1fe-6557-4f13-bebe-c16c9a455eac")
+	)
+	(junction
 		(at 80.01 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81bcadaf-2102-4183-b80e-20372a7ae2e9")
+	)
+	(junction
+		(at 110.49 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8894015b-5a01-4915-a8a0-7bba1f6f8115")
+	)
+	(junction
+		(at 129.54 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a47faa80-52d4-46a6-8539-2cd2aee07263")
+	)
+	(junction
+		(at 119.38 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6454cff-3111-4f8f-bba0-2591a2aed3c4")
 	)
 	(junction
 		(at 26.67 52.07)
@@ -2073,10 +2764,34 @@
 		(uuid "a67f6bad-e6ef-4840-b7f1-478c0f223d75")
 	)
 	(junction
+		(at 129.54 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c22a4f14-628d-49e4-bef4-eb28635fa1b9")
+	)
+	(junction
+		(at 119.38 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c80f7545-e54e-4069-8cbc-fc68c78e2e24")
+	)
+	(junction
 		(at 26.67 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cec19a18-975a-428b-9241-28c9c9025c76")
+	)
+	(junction
+		(at 99.06 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd2b712-8e24-43d8-8b01-88ca514be416")
+	)
+	(junction
+		(at 146.05 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1081902-3ed2-4449-a82c-a5c2ee752d0a")
 	)
 	(junction
 		(at 144.78 135.89)
@@ -2096,6 +2811,36 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c066abd-49c8-423a-8fbe-3116d3d0985c")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da891f2-f506-473d-a182-722fc86afe56")
+	)
+	(wire
+		(pts
+			(xy 146.05 133.35) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff26ce1-122e-428d-bb9e-b0a64b86ab57")
+	)
+	(wire
+		(pts
 			(xy 271.78 81.28) (xy 271.78 86.36)
 		)
 		(stroke
@@ -2103,6 +2848,16 @@
 			(type default)
 		)
 		(uuid "201d4993-6997-4101-957a-c3864045da0c")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2108f02d-4762-4420-8516-6f963d5b41eb")
 	)
 	(wire
 		(pts
@@ -2146,6 +2901,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2884af34-c353-457e-bdd3-cd80332b9fb3")
+	)
+	(wire
+		(pts
 			(xy 80.01 49.53) (xy 80.01 52.07)
 		)
 		(stroke
@@ -2166,6 +2931,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 46.99) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f83de2-5306-4c95-9fb5-a9e039cfe235")
+	)
+	(wire
+		(pts
 			(xy 144.78 120.65) (xy 149.86 120.65)
 		)
 		(stroke
@@ -2176,13 +2951,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 81.28 54.61)
+			(xy 119.38 86.36) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "365c56be-4c23-4460-b2c6-b599c3415dfb")
+		(uuid "3707aa88-776b-4ab1-8688-8250cef3b91f")
 	)
 	(wire
 		(pts
@@ -2196,6 +2971,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 46.99) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d182eb3-bafe-4239-af7b-6d1ee5805c54")
+	)
+	(wire
+		(pts
 			(xy 149.86 135.89) (xy 144.78 135.89)
 		)
 		(stroke
@@ -2206,13 +2991,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 93.98) (xy 81.28 93.98)
+			(xy 129.54 46.99) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "448316ac-63bf-4864-9c3c-0dcbbb66f0c2")
+		(uuid "44a550ec-7f36-413c-b6a1-6c5bc2f0487e")
 	)
 	(wire
 		(pts
@@ -2243,6 +3028,16 @@
 			(type default)
 		)
 		(uuid "4da63c71-d043-44ba-9123-fbda0f7d1e9e")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea861aa-315b-4f0e-9526-8947ddf5b207")
 	)
 	(wire
 		(pts
@@ -2286,6 +3081,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b4f48b-abd3-4676-8b77-21ee3514136b")
+	)
+	(wire
+		(pts
 			(xy 144.78 125.73) (xy 149.86 125.73)
 		)
 		(stroke
@@ -2326,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 46.99) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a934085-39ad-4e21-9a18-6c81bc629f7d")
+	)
+	(wire
+		(pts
 			(xy 149.86 130.81) (xy 144.78 130.81)
 		)
 		(stroke
@@ -2333,6 +3148,16 @@
 			(type default)
 		)
 		(uuid "7c316d2a-1b99-4ae3-83b7-d82cfc6d5f5e")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 119.38 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c594cbe-036c-4b35-8b7e-60fd37c1e980")
 	)
 	(wire
 		(pts
@@ -2386,6 +3211,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 46.99) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b9080d-b2cb-4807-a642-72935f553e35")
+	)
+	(wire
+		(pts
 			(xy 26.67 49.53) (xy 26.67 46.99)
 		)
 		(stroke
@@ -2393,6 +3228,16 @@
 			(type default)
 		)
 		(uuid "9b91cb75-ad16-424d-b899-5398df83fab5")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd0ef34-4d1b-4cda-a343-644f20dc71b6")
 	)
 	(wire
 		(pts
@@ -2406,13 +3251,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 82.55)
+			(xy 119.38 67.31) (xy 119.38 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a157b9cd-1192-4a9f-ad81-abccb77c305e")
+		(uuid "a0139ded-704d-42af-81d2-8ae218e63a54")
+	)
+	(wire
+		(pts
+			(xy 146.05 105.41) (xy 146.05 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a166a76a-c987-4629-b1ce-2c3e30a5f3cb")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e3bfc1-1281-4bad-9e14-83ece32c625c")
 	)
 	(wire
 		(pts
@@ -2426,6 +3291,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 76.2) (xy 86.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6faa71-d5c1-4c5e-ae44-afc74864d34f")
+	)
+	(wire
+		(pts
 			(xy 149.86 128.27) (xy 144.78 128.27)
 		)
 		(stroke
@@ -2436,6 +3311,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 46.99) (xy 99.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1929abf-d657-42e9-94ff-e9d98d27b931")
+	)
+	(wire
+		(pts
 			(xy 144.78 118.11) (xy 144.78 115.57)
 		)
 		(stroke
@@ -2443,6 +3328,26 @@
 			(type default)
 		)
 		(uuid "b8364eef-2c8f-4370-bcc7-ea3f579d8890")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba312d7a-2674-4415-a5b9-d3db54d0c251")
+	)
+	(wire
+		(pts
+			(xy 80.01 52.07) (xy 86.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa9560f-81e3-44a0-924a-6a990c4dfefc")
 	)
 	(wire
 		(pts
@@ -2463,6 +3368,26 @@
 			(type default)
 		)
 		(uuid "bd546aca-8194-4b62-a9b5-dcc7859ae4c1")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4676b5-1d9f-4644-9e90-927ac46a1d0b")
+	)
+	(wire
+		(pts
+			(xy 78.74 54.61) (xy 78.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c288cd43-dc9c-4164-95dd-195b44fa7bf3")
 	)
 	(wire
 		(pts
@@ -2526,13 +3451,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 54.61) (xy 78.74 54.61)
+			(xy 86.36 63.5) (xy 86.36 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d00a7ee9-9505-4bf1-90a0-d5ee780165b8")
+		(uuid "d31efee7-774f-47e3-a223-84fa0a0c28c0")
 	)
 	(wire
 		(pts
@@ -2556,13 +3481,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 129.54 46.99)
+			(xy 86.36 63.5) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e9ae81-9337-4ac4-a008-66cfd5d67799")
+		(uuid "e8859c84-8646-4baf-9198-185725fbdffb")
 	)
 	(wire
 		(pts
@@ -3257,6 +4182,318 @@
 		)
 	)
 	(symbol
+		(lib_id "EEE-1AA101WR:EEE-1AA101WR")
+		(at 99.06 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cc1091-fc9c-4601-bea7-4c72d43af6e0")
+		(property "Reference" "C4"
+			(at 101.346 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.822 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EEE0GA101SR"
+			(at 2.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf"
+			(at -97.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - EEE-1AA101WR - ALUMINUM ELECTROLYTIC CAPACITOR, 100UF, 10V, 20%, SMD"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5"
+			(at -297.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EEE-1AA101WR"
+			(at -397.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1AA101WR?qs=ANJC8C65Mw69l04MNJ%252BCMg%3D%3D"
+			(at -497.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -597.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-1AA101WR"
+			(at -697.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92f6f9f8-4d14-4bad-b834-3cf9428e9cf4")
+		)
+		(pin "1"
+			(uuid "b5b38d56-39b3-402c-940e-2016bd72da1f")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EEE-1AA101WR:EEE-1AA101WR")
+		(at 110.49 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4708e913-547d-419a-9ef1-db30093bcc11")
+		(property "Reference" "C3"
+			(at 113.03 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 111.76 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EEE0GA101SR"
+			(at 14.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf"
+			(at -85.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - EEE-1AA101WR - ALUMINUM ELECTROLYTIC CAPACITOR, 100UF, 10V, 20%, SMD"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5"
+			(at -285.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EEE-1AA101WR"
+			(at -385.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1AA101WR?qs=ANJC8C65Mw69l04MNJ%252BCMg%3D%3D"
+			(at -485.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -585.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-1AA101WR"
+			(at -685.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2843235f-90c9-4989-89c0-c02839ebf79e")
+		)
+		(pin "2"
+			(uuid "e55e3fc9-1065-4d8b-8315-57f8784cc902")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA2B3X7R1V103K050BB:CGA2B3X7R1V103K050BB")
+		(at 129.54 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51973bed-fd0e-4d27-84b2-9a694eaa1f35")
+		(property "Reference" "C1"
+			(at 131.826 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 130.556 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CGA2B3X7R1V103K050BB:CAPC1005X55N"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1054e0d-eb03-42b2-a17f-87bdb76df7da")
+		)
+		(pin "1"
+			(uuid "60d1ceee-7ef4-428c-8816-8b9b8b6f5ffc")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 144.78 139.7 0)
 		(unit 1)
@@ -3324,7 +4561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 93.98 0)
+		(at 129.54 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3333,7 +4570,7 @@
 		(fields_autoplaced yes)
 		(uuid "725fc56a-8449-4434-b725-0946ce63cf3e")
 		(property "Reference" "#PWR08"
-			(at 34.29 100.33 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +4579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 99.06 0)
+			(at 129.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +4587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 93.98 0)
+			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +4596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 93.98 0)
+			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +4605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 93.98 0)
+			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,8 +4866,144 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 146.05 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dde9854-4b35-445a-9a0c-6b2cfc6ac1c0")
+		(property "Reference" "#PWR010"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VM"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8e92315-128c-44a3-b7e2-7bb7ab89bab5")
+		)
+		(instances
+			(project "drv8424epwpr_carrier"
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA2B3X7R1V103K050BB:CGA2B3X7R1V103K050BB")
+		(at 119.38 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dfb008c-6ed6-4194-9dfc-877ad7d2fea4")
+		(property "Reference" "C2"
+			(at 121.412 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 120.396 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CGA2B3X7R1V103K050BB:CAPC1005X55N"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c492e7db-89a1-4372-812c-3c511a21a6ba")
+		)
+		(pin "1"
+			(uuid "ef6fc24b-3d00-49fe-a41e-1461642631f1")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 81.28 78.74 0)
+		(at 86.36 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3639,7 +5012,7 @@
 		(fields_autoplaced yes)
 		(uuid "94ff222b-2ac4-4020-a209-a7e47b5b9d73")
 		(property "Reference" "R1"
-			(at 83.82 77.4699 0)
+			(at 88.9 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +5021,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 83.82 80.0099 0)
+			(at 88.9 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,8 +5029,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 79.502 78.74 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 84.582 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +5039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 78.74 0)
+			(at 86.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +5048,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 78.74 0)
+			(at 86.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,6 +5132,77 @@
 			(project "drv8424epwpr_carrier"
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMSZ5245B-7-F:MMSZ5245B-7-F")
+		(at 86.36 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "990ec083-c0e9-40ba-bf7c-25a778a2e84f")
+		(property "Reference" "CR1"
+			(at 88.138 54.356 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15V"
+			(at 87.63 59.944 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOD123_DIO"
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MMSZ5245B-7-F"
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a50133ad-8651-42b1-954c-ba077aa71f31")
+		)
+		(pin "2"
+			(uuid "096638d1-e017-4990-821f-ecf7f5bd5a64")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "CR1")
 					(unit 1)
 				)
 			)
