@@ -6,4 +6,8 @@
   (lib (name "CGA2B3X7R1V103K050BB")(type "KiCad")(uri "${KIPRJMOD}/model_lib/CGA2B3X7R1V103K050BB/CGA2B3X7R1V103K050BB.kicad_sym")(options "")(descr ""))
   (lib (name "MMSZ5245B-7-F")(type "KiCad")(uri "${KIPRJMOD}/model_lib/MMSZ5245B_7_F/KiCADv6/2025-02-11_03-46-22.kicad_sym")(options "")(descr ""))
   (lib (name "EEE-1AA101WR")(type "KiCad")(uri "${KIPRJMOD}/model_lib/EEE-1AA101WR/KiCad/EEE-1AA101WR.kicad_sym")(options "")(descr ""))
+  (lib (name "C0805C103K8RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C0805C103K8RACTU/KiCADv6/2025-02-11_14-24-07.kicad_sym")(options "")(descr ""))
+  (lib (name "C1206C224K4RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C1206C224K4RACTU/KiCADv6/2025-02-11_14-31-04.kicad_sym")(options "")(descr ""))
+  (lib (name "C1206C223J8RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C1206C223J8RACTU/KiCADv6/2025-02-11_14-37-43.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM319R71A105KA01D")(type "KiCad")(uri "${KIPRJMOD}/model_lib/GRM319R71A105KA01D/GRM319R71A105KA01D.kicad_sym")(options "")(descr ""))
 )
