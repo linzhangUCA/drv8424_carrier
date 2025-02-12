@@ -18,4 +18,5 @@
   (lib (name "WL-SMCW_0805")(type "KiCad")(uri "${KIPRJMOD}/model_lib/150080VS75000/WL-SMCW_0805.kicad_sym")(options "")(descr ""))
   (lib (name "APHCM2012SURCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012SURCK_F01/APHCM2012SURCK-F01.kicad_sym")(options "")(descr ""))
   (lib (name "APHCM2012CGCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012CGCK_F01/KiCADv6/2025-02-12_15-40-18.kicad_sym")(options "")(descr ""))
+  (lib (name "APHCM2012SYCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012SYCK_F01/APHCM2012SYCK-F01.kicad_sym")(options "")(descr ""))
 )
