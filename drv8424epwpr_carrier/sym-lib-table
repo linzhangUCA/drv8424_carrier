@@ -14,4 +14,8 @@
   (lib (name "RC1206FR-0716KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_0716KL/KiCADv6/2025-02-12_02-49-44.kicad_sym")(options "")(descr ""))
   (lib (name "RC1206FR-0710KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_0710KL/KiCADv6/2025-02-12_04-04-05.kicad_sym")(options "")(descr ""))
   (lib (name "RC1206FR-07100KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_07100KL/KiCADv6/2025-02-12_04-20-17.kicad_sym")(options "")(descr ""))
+  (lib (name "RC1206FR-07590RL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_07590RL/KiCADv6/2025-02-12_15-19-52.kicad_sym")(options "")(descr ""))
+  (lib (name "WL-SMCW_0805")(type "KiCad")(uri "${KIPRJMOD}/model_lib/150080VS75000/WL-SMCW_0805.kicad_sym")(options "")(descr ""))
+  (lib (name "APHCM2012SURCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012SURCK_F01/APHCM2012SURCK-F01.kicad_sym")(options "")(descr ""))
+  (lib (name "APHCM2012CGCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012CGCK_F01/KiCADv6/2025-02-12_15-40-18.kicad_sym")(options "")(descr ""))
 )
