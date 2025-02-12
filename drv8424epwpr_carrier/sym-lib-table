@@ -12,4 +12,6 @@
   (lib (name "GRM319R71A105KA01D")(type "KiCad")(uri "${KIPRJMOD}/model_lib/GRM319R71A105KA01D/GRM319R71A105KA01D.kicad_sym")(options "")(descr ""))
   (lib (name "RC1206FR-0747KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_0747KL/KiCADv6/2025-02-12_02-40-21.kicad_sym")(options "")(descr ""))
   (lib (name "RC1206FR-0716KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_0716KL/KiCADv6/2025-02-12_02-49-44.kicad_sym")(options "")(descr ""))
+  (lib (name "RC1206FR-0710KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_0710KL/KiCADv6/2025-02-12_04-04-05.kicad_sym")(options "")(descr ""))
+  (lib (name "RC1206FR-07100KL")(type "KiCad")(uri "${KIPRJMOD}/model_lib/RC1206FR_07100KL/KiCADv6/2025-02-12_04-20-17.kicad_sym")(options "")(descr ""))
 )
