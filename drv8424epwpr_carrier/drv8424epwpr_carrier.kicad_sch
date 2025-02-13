@@ -8015,6 +8015,36 @@
 		)
 		(uuid "fb187b13-4e09-47b4-8edd-382314629add")
 	)
+	(text "VIN\nGND"
+		(exclude_from_sim no)
+		(at 246.38 45.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "0aecd4b7-572f-4c01-aa92-c66fa9063b80")
+	)
+	(text "3V3\nGND\nnFAULT\nnSLEEP\nAEN\nAPH\nBEN\nBPH"
+		(exclude_from_sim no)
+		(at 167.132 54.864 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "6b56e035-308a-42ca-86b8-d090db5838d4")
+	)
+	(text "AOUT1\nAOUT2\nVREFA\nVM\nGND\nVREFB\nBOUT2\nBOUT1"
+		(exclude_from_sim no)
+		(at 206.502 54.864 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "ea24d31d-49f7-4753-a811-2c275c8fe81a")
+	)
 	(global_label "BEN"
 		(shape input)
 		(at 176.53 60.96 0)
@@ -10109,7 +10139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8424EPWPR:HTSSOP28_PWP_TEX"
+		(property "Footprint" "DRV8424EPWPR:HTSSOP28_PWP_TEX-M"
 			(at 127 100.33 0)
 			(effects
 				(font
