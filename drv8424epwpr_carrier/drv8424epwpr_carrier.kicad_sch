@@ -7370,6 +7370,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 80.01) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e7e091-bf70-475c-9b83-8782d221ad25")
+	)
+	(wire
+		(pts
 			(xy 93.98 39.37) (xy 93.98 58.42)
 		)
 		(stroke
@@ -8568,7 +8578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -8721,7 +8731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_APHCM2012CGCK-F01_KNB"
+		(property "Footprint" "APHCM2012CGCK_F01:LED_APHCM2012CGCK-F01_KNB"
 			(at 58.42 125.73 0)
 			(effects
 				(font
@@ -8857,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_07590RL:RC1206N_YAG"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -9043,7 +9053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44cc0f94-ab12-48a9-80aa-6107523a9268")
-		(property "Reference" "R2_REFB"
+		(property "Reference" "R2_REFB1"
 			(at 261.62 129.5399 90)
 			(effects
 				(font
@@ -9061,7 +9071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_0716KL:RC1206N_YAG"
 			(at 259.08 137.16 0)
 			(effects
 				(font
@@ -9099,7 +9109,7 @@
 		(instances
 			(project "drv8424epwpr_carrier"
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "R2_REFB")
+					(reference "R2_REFB1")
 					(unit 1)
 				)
 			)
@@ -9132,7 +9142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC220145_88N_KEM"
+		(property "Footprint" "C0805C103K8RACTU:CAPC220145_88N_KEM"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -9203,7 +9213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEE0GA101SR"
+		(property "Footprint" "EEE-1AA101WR:EEE0GA101SR"
 			(at -2.21 67.31 0)
 			(effects
 				(font
@@ -9324,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEE0GA101SR"
+		(property "Footprint" "EEE-1AA101WR:EEE0GA101SR"
 			(at 9.22 55.88 0)
 			(effects
 				(font
@@ -9429,7 +9439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f2ecc73-d24a-42da-ba95-ab75d909ec1c")
-		(property "Reference" "C_VCP"
+		(property "Reference" "C_VCP1"
 			(at 113.03 93.98 0)
 			(effects
 				(font
@@ -9445,7 +9455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC340180_100N_KEM"
+		(property "Footprint" "C1206C224K4RACTU:CAPC340180_100N_KEM"
 			(at 116.84 100.33 0)
 			(effects
 				(font
@@ -9483,7 +9493,7 @@
 		(instances
 			(project ""
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "C_VCP")
+					(reference "C_VCP1")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APHCM2012SYCK-F01:LED_APHCM2012SYCK-F01"
+		(property "Footprint" "APHCM2012SYCK_F01:LED_APHCM2012SYCK-F01"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -9668,7 +9678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 78.74 0)
+		(at 124.46 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9677,7 +9687,7 @@
 		(fields_autoplaced yes)
 		(uuid "725fc56a-8449-4434-b725-0946ce63cf3e")
 		(property "Reference" "#PWR08"
-			(at 124.46 85.09 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,7 +9696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 83.82 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 78.74 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +9713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 78.74 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 78.74 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HTSSOP28_PWP_TEX"
+		(property "Footprint" "DRV8424EPWPR:HTSSOP28_PWP_TEX"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -9976,7 +9986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SON8_DMP4013LFG-7_DIO"
+		(property "Footprint" "DMP4013LFG_7:SON8_DMP4013LFG-7_DIO"
 			(at 73.66 46.99 0)
 			(effects
 				(font
@@ -10047,7 +10057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ba4ecf8-9711-4d85-8d82-6d39c8f18f34")
-		(property "Reference" "C_DVDD"
+		(property "Reference" "C_DVDD1"
 			(at 167.894 142.494 90)
 			(effects
 				(font
@@ -10102,7 +10112,7 @@
 		(instances
 			(project ""
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "C_DVDD")
+					(reference "C_DVDD1")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOD123_DIO"
+		(property "Footprint" "MMSZ5245B_7_F:SOD123_DIO"
 			(at 81.28 54.61 0)
 			(effects
 				(font
@@ -10403,7 +10413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_07590RL:RC1206N_YAG"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -10456,7 +10466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ac45a69-060e-4a8b-8fe3-40459e34ee07")
-		(property "Reference" "C_SW"
+		(property "Reference" "C_SW1"
 			(at 185.42 96.52 0)
 			(effects
 				(font
@@ -10472,7 +10482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC340180_88N_KEM"
+		(property "Footprint" "C1206C223J8RACTU:CAPC340180_88N_KEM"
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -10510,7 +10520,7 @@
 		(instances
 			(project ""
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "C_SW")
+					(reference "C_SW1")
 					(unit 1)
 				)
 			)
@@ -10526,7 +10536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3ee4613-68a7-49b9-8944-70ef667fc2a1")
-		(property "Reference" "R1_REFA"
+		(property "Reference" "R1_REFA1"
 			(at 232.41 111.7599 90)
 			(effects
 				(font
@@ -10544,7 +10554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_0747KL:RC1206N_YAG"
 			(at 229.87 119.38 0)
 			(effects
 				(font
@@ -10582,7 +10592,7 @@
 		(instances
 			(project ""
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "R1_REFA")
+					(reference "R1_REFA1")
 					(unit 1)
 				)
 			)
@@ -10614,7 +10624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHCM2012SURCK-F01:LED_APHCM2012SURCK-F01"
+		(property "Footprint" "APHCM2012SURCK_F01:LED_APHCM2012SURCK-F01"
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -10791,7 +10801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_07590RL:RC1206N_YAG"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -10911,7 +10921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0da788b-7eea-4f49-9b1d-be86405384ba")
-		(property "Reference" "R_nFAULT"
+		(property "Reference" "R_nFAULT1"
 			(at 199.39 123.1899 90)
 			(effects
 				(font
@@ -10929,7 +10939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_0710KL:RC1206N_YAG"
 			(at 196.85 130.81 0)
 			(effects
 				(font
@@ -10967,7 +10977,7 @@
 		(instances
 			(project ""
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "R_nFAULT")
+					(reference "R_nFAULT1")
 					(unit 1)
 				)
 			)
@@ -10983,7 +10993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d367bb9c-7792-4420-bdcf-5895501d40ec")
-		(property "Reference" "R1_REFB"
+		(property "Reference" "R1_REFB1"
 			(at 261.62 111.7599 90)
 			(effects
 				(font
@@ -11001,7 +11011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_0747KL:RC1206N_YAG"
 			(at 259.08 119.38 0)
 			(effects
 				(font
@@ -11039,7 +11049,7 @@
 		(instances
 			(project "drv8424epwpr_carrier"
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "R1_REFB")
+					(reference "R1_REFB1")
 					(unit 1)
 				)
 			)
@@ -11073,7 +11083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_07100KL:RC1206N_YAG"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -11143,7 +11153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_APHCM2012CGCK-F01_KNB"
+		(property "Footprint" "APHCM2012CGCK_F01:LED_APHCM2012CGCK-F01_KNB"
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -11215,7 +11225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 227.33 45.72 0)
 			(effects
 				(font
@@ -11285,7 +11295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e161ef16-3416-4fa1-91d8-1b7d2a28637e")
-		(property "Reference" "R2_REFA"
+		(property "Reference" "R2_REFA1"
 			(at 232.41 129.5399 90)
 			(effects
 				(font
@@ -11303,7 +11313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "RC1206FR_0716KL:RC1206N_YAG"
 			(at 229.87 137.16 0)
 			(effects
 				(font
@@ -11341,7 +11351,7 @@
 		(instances
 			(project ""
 				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "R2_REFA")
+					(reference "R2_REFA1")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHCM2012SURCK-F01:LED_APHCM2012SURCK-F01"
+		(property "Footprint" "APHCM2012SURCK_F01:LED_APHCM2012SURCK-F01"
 			(at 63.5 109.22 0)
 			(effects
 				(font
@@ -11549,7 +11559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC220145_88N_KEM"
+		(property "Footprint" "C0805C103K8RACTU:CAPC220145_88N_KEM"
 			(at 114.3 60.96 0)
 			(effects
 				(font
