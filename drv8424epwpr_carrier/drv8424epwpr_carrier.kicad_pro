@@ -497,6 +497,22 @@
       {
         "netclass": "POW",
         "pattern": "VM"
+      },
+      {
+        "netclass": "POW",
+        "pattern": "AOUT1"
+      },
+      {
+        "netclass": "POW",
+        "pattern": "AOUT2"
+      },
+      {
+        "netclass": "POW",
+        "pattern": "BOUT1"
+      },
+      {
+        "netclass": "POW",
+        "pattern": "BOUT2"
       }
     ]
   },
