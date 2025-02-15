@@ -16,4 +16,5 @@
   (lib (name "C1206C224K4RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C1206C224K4RACTU/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "C1206C223J8RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C1206C223J8RACTU/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "GRM319R71A105KA01D")(type "KiCad")(uri "${KIPRJMOD}/model_lib/GRM319R71A105KA01D")(options "")(descr ""))
+  (lib (name "model_lib")(type "KiCad")(uri "${KIPRJMOD}/model_lib")(options "")(descr ""))
 )

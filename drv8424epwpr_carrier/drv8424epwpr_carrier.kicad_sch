@@ -8015,6 +8015,16 @@
 		)
 		(uuid "0aecd4b7-572f-4c01-aa92-c66fa9063b80")
 	)
+	(text "I_reg = VREF / 1.32"
+		(exclude_from_sim no)
+		(at 245.618 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a1f5afb-06ac-44a1-9970-84ffd6a0a0a9")
+	)
 	(text "3V3\nGND\nnFAULT\nnSLEEP\nAEN\nAPH\nBEN\nBPH"
 		(exclude_from_sim no)
 		(at 167.132 54.864 0)
