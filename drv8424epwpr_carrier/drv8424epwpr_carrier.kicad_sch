@@ -1422,7 +1422,7 @@
 				)
 			)
 		)
-		(symbol "C1206C223J8RACTU:C1206C223J8RACTU"
+		(symbol "C0805C105K8RACTU:C0805C105K8RACTU"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1437,7 +1437,7 @@
 					)
 				)
 			)
-			(property "Value" "C1206C223J8RACTU"
+			(property "Value" "C0805C105K8RACTU"
 				(at 3.81 -3.81 0)
 				(effects
 					(font
@@ -1445,7 +1445,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CAPC340180_88N_KEM"
+			(property "Footprint" "CAPC220145_100N_KEM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1455,7 +1455,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "C1206C223J8RACTU"
+			(property "Datasheet" "C0805C105K8RACTU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1482,7 +1482,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C1206C223J8RACTU"
+			(property "ki_keywords" "C0805C105K8RACTU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1491,7 +1491,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CAPC340180_88N_KEM CAPC340180_88N_KEM-M CAPC340180_88N_KEM-L"
+			(property "ki_fp_filters" "CAPC220145_100N_KEM CAPC220145_100N_KEM-M CAPC220145_100N_KEM-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1500,7 +1500,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C1206C223J8RACTU_1_1"
+			(symbol "C0805C105K8RACTU_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.4798 0)
@@ -1586,7 +1586,7 @@
 					)
 				)
 			)
-			(symbol "C1206C223J8RACTU_1_2"
+			(symbol "C0805C105K8RACTU_1_2"
 				(polyline
 					(pts
 						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
@@ -1673,45 +1673,46 @@
 				)
 			)
 		)
-		(symbol "C1206C224K4RACTU:C1206C224K4RACTU"
+		(symbol "C0805C223K8RACTU:C0805C223K8RACTU"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 3.81 3.81 0)
+				(at 0 3.8109 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "C1206C224K4RACTU"
-				(at 3.81 -3.81 0)
+			(property "Value" "C0805C223K8RACTU"
+				(at 0 -5.0885 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CAPC340180_100N_KEM"
+			(property "Footprint" "C0805C223K8RACTU:CAPC2012X88N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "C1206C224K4RACTU"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -1725,15 +1726,103 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(symbol "C0805C223K8RACTU_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C0805C224K4RACTU:C0805C224K4RACTU"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C0805C224K4RACTU"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "C0805C224K4RACTU:CAPC2012X88N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
+					(hide yes)
 				)
 			)
-			(property "ki_keywords" "C1206C224K4RACTU"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1742,7 +1831,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CAPC340180_100N_KEM CAPC340180_100N_KEM-M CAPC340180_100N_KEM-L"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1751,173 +1840,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "C1206C224K4RACTU_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
+			(symbol "C0805C224K4RACTU_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
 					(stroke
-						(width 0.2032)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
 					(stroke
-						(width 0.2032)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at -2.54 0 0)
 					(length 2.54)
-					(name ""
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 0 180)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name ""
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C1206C224K4RACTU_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3401,120 +3378,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GRM319R71A105KA01D:GRM319R71A105KA01D"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 3.8109 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "GRM319R71A105KA01D"
-				(at 0 -5.0885 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "GRM319R71A105KA01D:CAPC3216X95N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM319R71A105KA01D_0_0"
-				(rectangle
-					(start 0 -1.9069)
-					(end 0.635 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.9069 -1.9069)
-					(end 2.54 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -8772,6 +8635,75 @@
 		)
 	)
 	(symbol
+		(lib_id "C0805C223K8RACTU:C0805C223K8RACTU")
+		(at 184.15 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11c6347e-c619-4547-b586-53be9f0ab7dc")
+		(property "Reference" "C_SW1"
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.022uF"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92fdf7c9-5bdb-4fe0-8fca-24db597741cb")
+		)
+		(pin "2"
+			(uuid "eadb0a1e-e94f-4a6c-af81-0124cd087c65")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C_SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 194.31 100.33 90)
 		(unit 1)
@@ -8864,7 +8796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHCM2012CGCK_F01:LED_APHCM2012CGCK-F01_KNB"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 58.42 125.73 0)
 			(effects
 				(font
@@ -9000,7 +8932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206FR_07590RL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -9290,7 +9222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206FR_0716KL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 259.08 137.16 0)
 			(effects
 				(font
@@ -9361,7 +9293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0805C103K8RACTU:CAPC220145_88N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -9800,77 +9732,6 @@
 		)
 	)
 	(symbol
-		(lib_id "C1206C224K4RACTU:C1206C224K4RACTU")
-		(at 116.84 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f2ecc73-d24a-42da-ba95-ab75d909ec1c")
-		(property "Reference" "C_VCP1"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0.22uF"
-			(at 113.03 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "C1206C224K4RACTU:CAPC340180_100N_KEM"
-			(at 116.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C1206C224K4RACTU"
-			(at 116.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28977057-4b4f-467f-b116-cc4cc71a30e9")
-		)
-		(pin "2"
-			(uuid "f3d04833-9090-4fbc-a5fd-77a9c3319aa6")
-		)
-		(instances
-			(project ""
-				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "C_VCP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 138.43 0)
 		(unit 1)
@@ -9937,6 +9798,77 @@
 		)
 	)
 	(symbol
+		(lib_id "C0805C105K8RACTU:C0805C105K8RACTU")
+		(at 176.53 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68062203-1239-4e4b-8204-7603dd452be4")
+		(property "Reference" "C_DVDD1"
+			(at 166.624 143.51 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 170.688 146.304 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C0805C105K8RACTU"
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26edbe69-8f2f-4350-88af-5808bd8fca06")
+		)
+		(pin "1"
+			(uuid "c6bfeeef-e72e-4aa3-b83a-bd8b764fb7c2")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C_DVDD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APHCM2012SYCK-F01:APHCM2012SYCK-F01")
 		(at 135.89 50.8 270)
 		(unit 1)
@@ -9964,7 +9896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APHCM2012SYCK_F01:LED_APHCM2012SYCK-F01"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -10420,76 +10352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GRM319R71A105KA01D:GRM319R71A105KA01D")
-		(at 176.53 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ba4ecf8-9711-4d85-8d82-6d39c8f18f34")
-		(property "Reference" "C_DVDD1"
-			(at 167.894 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 170.434 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GRM319R71A105KA01D:CAPC3216X95N"
-			(at 176.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0000043-c337-4446-ab4d-6be45a1c4d64")
-		)
-		(pin "1"
-			(uuid "362a8f95-7368-4062-b8fe-ee57e1424fe4")
-		)
-		(instances
-			(project ""
-				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "C_DVDD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 123.19 95.25 0)
 		(unit 1)
@@ -10784,7 +10646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206FR_07590RL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -10829,75 +10691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "C1206C223J8RACTU:C1206C223J8RACTU")
-		(at 181.61 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ac45a69-060e-4a8b-8fe3-40459e34ee07")
-		(property "Reference" "C_SW1"
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0.022uF"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "C1206C223J8RACTU:CAPC340180_88N_KEM"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C1206C223J8RACTU"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fec4be92-7c37-4844-ade7-f654c2d53dc3")
-		)
-		(pin "1"
-			(uuid "8ee21372-0172-41b0-8d6d-ebb146bfdc72")
-		)
-		(instances
-			(project ""
-				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
-					(reference "C_SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RC1206FR-0747KL:RC1206FR-0747KL")
 		(at 229.87 119.38 90)
 		(unit 1)
@@ -10925,7 +10718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206FR_0747KL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 229.87 119.38 0)
 			(effects
 				(font
@@ -10970,6 +10763,75 @@
 		)
 	)
 	(symbol
+		(lib_id "C0805C224K4RACTU:C0805C224K4RACTU")
+		(at 111.76 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afc67095-06e2-4aad-817d-6fc80b3c38b5")
+		(property "Reference" "C_VCP1"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.22uF"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a817ea05-4bda-4834-9509-affad467e20b")
+		)
+		(pin "2"
+			(uuid "dc2951d9-460a-4fae-ac1b-e5ee2e84a2be")
+		)
+		(instances
+			(project ""
+				(path "/ffaa5cf3-cedd-4f84-9f10-7046972ed335"
+					(reference "C_VCP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APHCM2012SURCK-F01:APHCM2012SURCK-F01")
 		(at 63.5 137.16 180)
 		(unit 1)
@@ -10995,7 +10857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHCM2012SURCK_F01:LED_APHCM2012SURCK-F01"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -11172,7 +11034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206FR_07590RL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -11310,7 +11172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206FR_0710KL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 196.85 130.81 0)
 			(effects
 				(font
@@ -11382,7 +11244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206FR_0747KL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 259.08 119.38 0)
 			(effects
 				(font
@@ -11454,7 +11316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC1206FR_07100KL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -11592,7 +11454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHCM2012CGCK_F01:LED_APHCM2012CGCK-F01_KNB"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -11664,7 +11526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC1206FR_0716KL:RC1206N_YAG"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 229.87 137.16 0)
 			(effects
 				(font
@@ -11800,7 +11662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHCM2012SURCK_F01:LED_APHCM2012SURCK-F01"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 63.5 109.22 0)
 			(effects
 				(font
@@ -11910,7 +11772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0805C103K8RACTU:CAPC220145_88N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 114.3 60.96 0)
 			(effects
 				(font

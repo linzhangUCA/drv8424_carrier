@@ -19,4 +19,7 @@
   (lib (name "APHCM2012SURCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012SURCK_F01/APHCM2012SURCK-F01.kicad_sym")(options "")(descr ""))
   (lib (name "APHCM2012CGCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012CGCK_F01/KiCADv6/2025-02-12_15-40-18.kicad_sym")(options "")(descr ""))
   (lib (name "APHCM2012SYCK-F01")(type "KiCad")(uri "${KIPRJMOD}/model_lib/APHCM2012SYCK_F01/APHCM2012SYCK-F01.kicad_sym")(options "")(descr ""))
+  (lib (name "C0805C223K8RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C0805C223K8RACTU/C0805C223K8RACTU.kicad_sym")(options "")(descr ""))
+  (lib (name "C0805C105K8RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C0805C105K8RACTU/KiCADv6/2025-02-15_23-07-36.kicad_sym")(options "")(descr ""))
+  (lib (name "C0805C224K4RACTU")(type "KiCad")(uri "${KIPRJMOD}/model_lib/C0805C224K4RACTU/C0805C224K4RACTU.kicad_sym")(options "")(descr ""))
 )
